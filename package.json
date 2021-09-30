@@ -1,0 +1,21 @@
+{
+    "name": "insomnia-plugin-dark-colorblind-theme",
+    "version": "1.0.0",
+    "main": "app.js",
+    "license": "MIT",
+    "insomnia": {                    
+      "name": "Dark Colorblind Insomnia Theme",
+      "displayName": "Dark Colorblind Insomnia Theme",
+      "description": "This Insomnia dark theme offers alternative colors for colorblind users.",
+      "images": {
+        "icon": "images/dark-colorblind-theme-logo.png"
+      }
+    },
+    "keywords": [
+        "dark",
+        "insomnia",
+        "theme",
+        "insomnia-plugin",
+        "colorblind"
+    ]
+  }
