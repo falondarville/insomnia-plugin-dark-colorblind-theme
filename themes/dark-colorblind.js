@@ -23,12 +23,24 @@ module.exports = {
 			info: '#000' 			// secondary font color for info background
 		},
 		styles: {
+			appHeader: {
+				foreground: {
+					surprise: '#000' // branch button font color?
+				}
+			},
+			paneHeader: {
+				foreground: {
+					default: '#fff', 	// primary Editor Mode font color (white)
+					surprise: '#000', 	// accent font color
+					info: '#000' 		// response font color
+				}
+			},
 			dialog: {
 				background: {
-					default: '#21262D' // modal primary background color
+					default: '#21262D' 	// modal primary background color
 				},
 				foreground: {
-					default: '#000'
+					default: '#fff' 	// primary font color for modals
 				}
 			}
 		}
