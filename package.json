@@ -2,7 +2,6 @@
     "name": "insomnia-plugin-dark-colorblind-theme",
     "version": "1.0.0",
     "main": "app.js",
-    "license": "MIT",
     "insomnia": {                    
       "name": "Dark Colorblind Insomnia Theme",
       "displayName": "Dark Colorblind Insomnia Theme",
