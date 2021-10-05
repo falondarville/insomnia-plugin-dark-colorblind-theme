@@ -3,7 +3,7 @@ module.exports = {
 	displayName: 'Dark Colorblind',
 	theme: {
 		background: {
-			default:    '#2E4052', 	// primary background color
+			default:    '#21262D', 	// primary background color
 			success:    '#1F6FEB', 	// POST request, 200 OK, parameter names
 			notice:     '#E8F086', 	// SEND button, GET request
 			warning:    '#A691AE', 	// PUT request
@@ -13,10 +13,9 @@ module.exports = {
 		},
 		foreground: {
 			// font colors corresponding with the elements above?
-			// there's like 5 minute delay (?) for theme changes so testing is a pain
 			default:     '#fff',    // primary font color (white)
 			success:     '#fff', 	// secondary font color for success background
-			notice:      '#fff', 	// secondary font color for notice background
+			notice:      '#000', 	// secondary font color for notice background
 			warning:     '#fff', 	// secondary font color for warning background
 			danger:      '#fff', 	// secondary font color for danger background
 			surprise:    '#000', 	// secondary font color for surprise background
@@ -37,7 +36,7 @@ module.exports = {
 			},
 			dialog: {
 				background: {
-					default:    '#21262D' 	// modal primary background color
+					default:    '#2E4052' 	// modal primary background color
 				},
 				foreground: {
 					default:    '#fff' 	    // primary font color for modals
