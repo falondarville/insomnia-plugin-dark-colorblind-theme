@@ -1,0 +1,33 @@
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+      - invalid
+      - duplicate
+      - help wanted
+      - invalid
+      - question
+      - wontfix
+    authors:
+      - octocat
+      - swtg-robot.gen
+  categories:
+    - title: Breaking Changes 🛠
+      labels:
+        - Semver-Major
+        - breaking
+    - title: New Features 🎉
+      labels:
+        - enhancement
+    - title: Documentation 📖
+      labels:
+        - documentation
+    - title: Bug Fix 🐛
+      labels:
+        - bug
+    - title: Dependencies 📦
+      labels:
+        - dependencies
+    - title: Other Changes
+      labels:
+        - "*" 
